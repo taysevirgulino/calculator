@@ -1,0 +1,45 @@
+.body {
+    text-align: center;
+}
+
+.bodycalc {
+    width: 100%;
+}
+
+p,
+h1,
+h2,
+h3 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.number {
+    margin-bottom: 4px;
+}
+
+.calculadora button {
+    width: 23%;
+}
+
+.calculadora {
+    border: 1px so lid #D6D6D6;
+    padding: 10px;
+    width: 50%;
+    display: inline-block;
+    background-color: #F5F5F5;
+}
+
+.display input {
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    color: #333;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 93.5%;
+}
+
+button.btn.btn-default.btn-xs:hover {
+    background: darkviolet;
+    color: #fff;
+}

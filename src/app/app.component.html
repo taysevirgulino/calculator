@@ -1,0 +1,40 @@
+<div class="container">
+    <h2>{{title}}</h2>
+    <h3>{{subtitle}}</h3>
+    <hr>
+    <div class="body">
+        <div class="calculadora">
+            <div class="display">
+                <input type="textbox" value="{{display}}" readonly/>
+            </div>
+            <div class="bodycalc">
+                <div class="number">
+                    <button type="button" class="btn btn-default btn-xs" (click)="number('7')">7</button>
+                    <button type="button" class="btn btn-default btn-xs" (click)="number('8')">8</button>
+                    <button type="button" class="btn btn-default btn-xs" (click)="number('9')">9</button>
+                    <button type="button" class="btn btn-default btn-xs" (click)="key('/')">/</button>
+                </div>
+                <div class="number">
+                    <button type="button" class="btn btn-default btn-xs" (click)="number('4')">4</button>
+                    <button type="button" class="btn btn-default btn-xs" (click)="number('5')">5</button>
+                    <button type="button" class="btn btn-default btn-xs" (click)="number('6')">6</button>
+                    <button type="button" class="btn btn-default btn-xs" (click)="key('*')">*</button>
+                </div>
+                <div class="number">
+                    <button type="button" class="btn btn-default btn-xs" (click)="number('1')">1</button>
+                    <button type="button" class="btn btn-default btn-xs" (click)="number('2')">2</button>
+                    <button type="button" class="btn btn-default btn-xs" (click)="number('3')">3</button>
+                    <button type="button" class="btn btn-default btn-xs" (click)="key('-')">-</button>
+                </div>
+                <div class="number">
+                    <button type="button" class="btn btn-default btn-xs" (click)="number('0')">0</button>
+                    <button type="button" class="btn btn-default btn-xs" (click)="clear()">C</button>
+                    <button type="button" class="btn btn-default btn-xs" (click)="key('=')">=</button>
+                    <button type="button" class="btn btn-default btn-xs" (click)="key('+')">+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p>Esta calculadora foi desenvolvida pela acadêmica <strong>Tayse Virgulino Ribeiro</strong>.</p>
+</div>
